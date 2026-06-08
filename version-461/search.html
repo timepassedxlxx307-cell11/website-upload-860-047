@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="免费高清观看国产大片 _ 热播剧在线全集平台_影视库影片搜索，支持片名、地区、年份、类型与标签检索。">
+  <meta name="keywords" content="免费高清观看国产大片 _ 热播剧在线全集平台_影视库,国产,视频,免费,在线观看,高清,影视大全,搜索,影视搜索,电影搜索">
+  <meta name="robots" content="index, follow">
+  <title>影片搜索 - 免费高清观看国产大片 _ 热播剧在线全集平台_影视库</title>
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="./index.html" aria-label="影视库首页">
+      <span>影视库</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" data-site-nav>
+        <a class="" href="./index.html">首页</a>
+        <a class="" href="./categories.html">分类</a>
+        <a class="" href="./ranking.html">排行榜</a>
+        <a class="active" href="./search.html">搜索</a>
+    </nav>
+  </div>
+</header>
+<main class="page-main">
+  <section class="page-hero small-hero">
+    <span class="section-kicker">Search</span>
+    <h1>影片搜索</h1>
+    <p>支持按片名、地区、年份、类型、题材和标签检索影片内容。</p>
+    <form class="search-form center" action="search.html" method="get" data-search-form>
+      <input type="search" name="q" placeholder="输入片名、地区、类型、年份或标签" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+  </section>
+  <section class="section-wrap">
+    <div class="section-head">
+      <div>
+        <span class="section-kicker">Results</span>
+        <h2 id="search-heading">搜索结果</h2>
+        <p id="search-summary">输入关键词后可查看匹配影片。</p>
+      </div>
+      <a class="text-link" href="categories.html">浏览分类</a>
+    </div>
+    <div class="movie-grid" id="search-results"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>影视库</strong>
+      <p>支持免费高清观看国产大片，并提供热播剧在线全集播放平台。资源包含最新院线电影、经典国产片及持续更新剧集，画质超清，内容以国产影视为核心。</p>
+    </div>
+    <div class="footer-links">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/search-data.js"></script>
+<script type="module" src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
